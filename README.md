@@ -101,8 +101,8 @@ imbalanced classification report
 
 ![image](https://user-images.githubusercontent.com/68198233/163676100-1cc24c8f-c6ca-47e9-8756-4af34f3d8f1a.png)
 
-Summary
+##Summary
 
-
+Based off of our accuracy score the easy ensemble adabooster classifier had the best results. With that said all of the models had a f1 score close to zero for high risk loans, which is certainly concerning. 
 
 
