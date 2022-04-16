@@ -1,8 +1,15 @@
 # Credit_Risk_Analysis
 
 
+## Overview
 
-## Naive oversampling
+We are analyzing credit risk which  is an inherently unbalanced classification problem. Using the imbalanced-learn and scikit-learn libraries we will build and evaluate models of our data using resampling. These techniques hopefully will determine which model can be used for reliably predicting credit risk. The data used is from the credit card credit dataset at LendingClub, a peer-to-peer lending services company. 
+
+
+## Results
+
+
+### Naive oversampling
 
 - Accuracy Score and Confusion Matrix
 
@@ -15,7 +22,7 @@
 
 
 
-## SMOTE oversampling
+### SMOTE oversampling
 
 - Accuracy Score and Confusion Matrix
 ![image](https://user-images.githubusercontent.com/68198233/163675548-394e8b4f-eb69-41ee-98a6-d4666bcba545.png)
@@ -27,7 +34,7 @@
 
 
 
-## Undersampling
+### Undersampling
 
 - Accuracy Score
 
@@ -44,7 +51,7 @@
 
 
 
-# Combination Over and Under Sampling
+### Combination Over and Under Sampling
 
 - Accuracy Score
 
@@ -78,7 +85,7 @@
 ![image](https://user-images.githubusercontent.com/68198233/163675998-3aded80e-8a21-4605-9568-2feab120f5d3.png)
 
 
-## Easy Ensemble AdaBooster Classifier
+### Easy Ensemble AdaBooster Classifier
 
 Accuracy Score
 
@@ -93,6 +100,8 @@ Confusion matrix
 imbalanced classification report
 
 ![image](https://user-images.githubusercontent.com/68198233/163676100-1cc24c8f-c6ca-47e9-8756-4af34f3d8f1a.png)
+
+Summary
 
 
 
